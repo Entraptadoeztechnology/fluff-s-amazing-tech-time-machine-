@@ -7,7 +7,7 @@ window.onload = () => {
     let scrollX = 0;
 
     setInterval(() => {
-        scrollX += 1;
+        scrollX += 5;
         if (scrollX > 2300) scrollX = 0;
         // console.log(scrollX);
         document.querySelector(".header").style = `background-position: -${scrollX}px bottom;`;
